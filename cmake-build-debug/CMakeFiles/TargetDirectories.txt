@@ -1,0 +1,3 @@
+C:/C++/jdrgames/cmake-build-debug/CMakeFiles/jdrgames.dir
+C:/C++/jdrgames/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/C++/jdrgames/cmake-build-debug/CMakeFiles/rebuild_cache.dir
