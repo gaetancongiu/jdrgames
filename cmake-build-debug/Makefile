@@ -124,6 +124,33 @@ jdrgames\fast:
 	$(MAKE) -f CMakeFiles\jdrgames.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jdrgames.dir\build
 .PHONY : jdrgames\fast
 
+Personnage.obj: Personnage.cpp.obj
+
+.PHONY : Personnage.obj
+
+# target to build an object file
+Personnage.cpp.obj:
+	$(MAKE) -f CMakeFiles\jdrgames.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jdrgames.dir\Personnage.cpp.obj
+.PHONY : Personnage.cpp.obj
+
+Personnage.i: Personnage.cpp.i
+
+.PHONY : Personnage.i
+
+# target to preprocess a source file
+Personnage.cpp.i:
+	$(MAKE) -f CMakeFiles\jdrgames.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jdrgames.dir\Personnage.cpp.i
+.PHONY : Personnage.cpp.i
+
+Personnage.s: Personnage.cpp.s
+
+.PHONY : Personnage.s
+
+# target to generate assembly for a file
+Personnage.cpp.s:
+	$(MAKE) -f CMakeFiles\jdrgames.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jdrgames.dir\Personnage.cpp.s
+.PHONY : Personnage.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +187,9 @@ help:
 	@echo ... jdrgames
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Personnage.obj
+	@echo ... Personnage.i
+	@echo ... Personnage.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

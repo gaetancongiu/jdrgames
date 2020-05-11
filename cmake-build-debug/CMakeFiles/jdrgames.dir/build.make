@@ -77,17 +77,38 @@ CMakeFiles\jdrgames.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\jdrgames.dir\main.cpp.s /c C:\C++\jdrgames\main.cpp
 <<
 
+CMakeFiles\jdrgames.dir\Personnage.cpp.obj: CMakeFiles\jdrgames.dir\flags.make
+CMakeFiles\jdrgames.dir\Personnage.cpp.obj: ..\Personnage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\C++\jdrgames\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/jdrgames.dir/Personnage.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\BUILDT~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\jdrgames.dir\Personnage.cpp.obj /FdCMakeFiles\jdrgames.dir\ /FS -c C:\C++\jdrgames\Personnage.cpp
+<<
+
+CMakeFiles\jdrgames.dir\Personnage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jdrgames.dir/Personnage.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\BUILDT~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe > CMakeFiles\jdrgames.dir\Personnage.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\C++\jdrgames\Personnage.cpp
+<<
+
+CMakeFiles\jdrgames.dir\Personnage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jdrgames.dir/Personnage.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\BUILDT~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\jdrgames.dir\Personnage.cpp.s /c C:\C++\jdrgames\Personnage.cpp
+<<
+
 # Object files for target jdrgames
 jdrgames_OBJECTS = \
-"CMakeFiles\jdrgames.dir\main.cpp.obj"
+"CMakeFiles\jdrgames.dir\main.cpp.obj" \
+"CMakeFiles\jdrgames.dir\Personnage.cpp.obj"
 
 # External object files for target jdrgames
 jdrgames_EXTERNAL_OBJECTS =
 
 bin\jdrgames.exe: CMakeFiles\jdrgames.dir\main.cpp.obj
+bin\jdrgames.exe: CMakeFiles\jdrgames.dir\Personnage.cpp.obj
 bin\jdrgames.exe: CMakeFiles\jdrgames.dir\build.make
 bin\jdrgames.exe: CMakeFiles\jdrgames.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\C++\jdrgames\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin\jdrgames.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\C++\jdrgames\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin\jdrgames.exe"
 	C:\Users\congiu.gaetan\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6015.37\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\jdrgames.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\BUILDT~1\VC\Tools\MSVC\1425~1.286\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\jdrgames.dir\objects1.rsp @<<
  /out:bin\jdrgames.exe /implib:lib\jdrgames.lib /pdb:C:\C++\jdrgames\cmake-build-debug\bin\jdrgames.pdb /version:0.0  /machine:x64   /debug /INCREMENTAL  /subsystem:console  -LIBPATH:C:\Users\congiu.gaetan\.conan\data\sfml\2.5.1\bincrafters\stable\package\1a65d00cce60848cd990a2487100d0511d61207b\lib  -LIBPATH:C:\Users\congiu.gaetan\.conan\data\freetype\2.10.1\_\_\package\2eda287fd36b7b010dea069857045000246077e3\lib  -LIBPATH:C:\Users\congiu.gaetan\.conan\data\libpng\1.6.37\_\_\package\d140711d95cc16a85766a8fc3a551dfafe84cf63\lib  -LIBPATH:C:\Users\congiu.gaetan\.conan\data\bzip2\1.0.8\_\_\package\d16a91eadaaf5829b928b12d2f836ff7680d3df5\lib  -LIBPATH:C:\Users\congiu.gaetan\.conan\data\zlib\1.2.11\_\_\package\3fb49604f9c2f729b85ba3115852006824e72cab\lib sfml-graphics-s.lib sfml-window-s.lib sfml-main.lib sfml-system-s.lib opengl32.lib gdi32.lib winmm.lib freetype.lib libpng16.lib bz2.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

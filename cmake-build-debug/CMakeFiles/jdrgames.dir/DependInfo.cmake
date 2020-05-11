@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/C++/jdrgames/Personnage.cpp" "C:/C++/jdrgames/cmake-build-debug/CMakeFiles/jdrgames.dir/Personnage.cpp.obj"
   "C:/C++/jdrgames/main.cpp" "C:/C++/jdrgames/cmake-build-debug/CMakeFiles/jdrgames.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

@@ -75,12 +75,12 @@ preinstall:
 CMakeFiles\jdrgames.dir\all:
 	$(MAKE) -f CMakeFiles\jdrgames.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jdrgames.dir\depend
 	$(MAKE) -f CMakeFiles\jdrgames.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\jdrgames.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\C++\jdrgames\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target jdrgames"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\C++\jdrgames\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target jdrgames"
 .PHONY : CMakeFiles\jdrgames.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\jdrgames.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\C++\jdrgames\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\C++\jdrgames\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\jdrgames.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\C++\jdrgames\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\jdrgames.dir\rule

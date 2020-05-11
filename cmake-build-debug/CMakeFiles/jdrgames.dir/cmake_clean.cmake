@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/jdrgames.dir/Personnage.cpp.obj"
   "CMakeFiles/jdrgames.dir/main.cpp.obj"
   "bin/jdrgames.exe"
   "bin/jdrgames.exe.manifest"

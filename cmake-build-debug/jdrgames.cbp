@@ -94,6 +94,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/C++/jdrgames/Personnage.cpp">
+			<Option target="jdrgames"/>
+		</Unit>
+		<Unit filename="C:/C++/jdrgames/Personnage.h">
+			<Option target="jdrgames"/>
+		</Unit>
 		<Unit filename="C:/C++/jdrgames/main.cpp">
 			<Option target="jdrgames"/>
 		</Unit>

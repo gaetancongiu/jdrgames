@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/C++/jdrgames/main.cpp
-iostream
--
+C:/C++/jdrgames/Personnage.cpp
+Personnage.h
+C:/C++/jdrgames/Personnage.h
+
+C:/C++/jdrgames/Personnage.h
 
